@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Master Control Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>📚 Quote Competition Master Panel</h1>
+  <div id="round-info">Round: <span id="round-number">1</span></div>
+  <div id="quote-display">Click "Start Round" to begin</div>
+  <div id="book-cover" class="hidden">
+    <h3>Correct Book:</h3>
+    <img id="cover-img" src="" alt="Book Cover">
+  </div>
+  <div class="controls">
+    <button onclick="startRound()">Start Round</button>
+    <button onclick="revealAnswer()">Reveal Answer</button>
+    <button onclick="nextQuote()">Next Quote</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
